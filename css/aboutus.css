@@ -1,0 +1,110 @@
+body,html {
+  height: 100%;
+ }
+
+body {
+  padding-top: 50px;
+}
+
+.bg-4{
+  background-color: #2f2f2f;
+  color: #ffffff;
+
+}
+
+footer{
+  display: block;
+}
+
+section.services {
+  background-color: var(--bg-yellow);
+  padding: 5rem 9%;
+}
+
+.services .top {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.services .top h1 {
+  font-size: 7rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+ .services .top p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 2.2rem;
+  color: var(--grey);
+} 
+
+.services .bottom {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 3rem;
+}
+
+.services .bottom .box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.services .bottom .box:hover {
+  background-color: var(--black);
+  box-shadow: var(--box-shadow);
+}
+
+.services .bottom .box img {
+  height: 6rem;
+}
+
+.services .bottom .box h2 {
+  font-size: 4rem;
+  margin: 1.5rem 0;
+}
+
+.services .bottom .box p {
+  font-size: 2.1rem;
+  margin: 1.5rem 0;
+}
+
+.services .bottom .box p {
+  color: var(--grey);
+  margin-bottom: 1.5rem;
+}
+
+.services .bottom .box a {
+  display: inline-block;
+  font-weight: 700;
+  
+} 
+
+.services .bottom .box a img {
+  height: 1rem;
+}
+
+@media (max-width: 768px) {
+  .services .top {
+    margin-bottom: 3rem;
+  }
+
+  .services .top p {
+    width: 100%;
+    font-size: inherit;
+  }
+
+  .services .top h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .services .bottom .box {
+    padding: 1.5rem;
+  }
+}
+  
+  
